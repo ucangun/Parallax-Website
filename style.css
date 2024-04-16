@@ -1,0 +1,97 @@
+body,
+html {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
+}
+
+.common {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  opacity: 0.7;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+}
+
+.section-light {
+  color: rgb(102, 102, 102);
+  background-color: #f1f1f1;
+}
+
+.section-dark {
+  color: rgb(221, 221, 221);
+  background-color: #282e34;
+}
+
+.first-page {
+  background-image: url(./img/bg.jpg);
+  height: 100%;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  background-color: black;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.option1 {
+  text-transform: uppercase;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.option2 {
+  text-transform: capitalize;
+  outline: 0.5rem inset purple;
+  outline-offset: 0.3rem;
+}
+
+.second-page {
+  background-image: url(./img/bg2.jpg);
+  height: 80%;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.third-page {
+  background-image: url(./img/bg3.jpg);
+  height: 80%;
+}
+
+.fourth-page {
+  background-image: url(./img/bg4.jpg);
+  height: 80%;
+}
+
+.fifth-page {
+  background-image: url(./img/bg.jpg);
+  height: 100%;
+}
